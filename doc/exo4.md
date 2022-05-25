@@ -1,8 +1,10 @@
 #Exercice 4
 
-**Durée :** 5 mins
+**Durée :** :warning: 5 mins :warning:
 
-Si vous avez compris comment « compiler » le code, essayez de faire en sorte que le CSS produit soit automatiquement minifié.
+<ins>**Attention au temps.**</ins>
+
+Essayez de faire en sorte que le CSS produit soit automatiquement minifié.
 
 ---
 
@@ -12,3 +14,4 @@ Si vous avez compris comment « compiler » le code, essayez de faire en sorte q
 - [Exercice 3](./exo3.md)
 - **Exercice 4**
 - [Exercice 5](./exo5.md)
+- [Exercice 6](./exo6.md)

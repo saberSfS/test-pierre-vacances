@@ -1,9 +1,13 @@
 {
   "name": "test-integ-front-pvcp",
   "version": "1.0.0",
-  "description": "Ce test d’une durée approximative d'1H30 a pour objectif de nous permettre d’évaluer votre niveau technique en tant qu’intégrateur/développeur front en fonction d’un certain nombre de critères définis à l’avance.",
+  "description": "Ce test d’une durée approximative de 2H a pour objectif de nous permettre d’évaluer votre niveau technique en tant qu’intégrateur/développeur front en fonction d’un certain nombre de critères définis à l’avance.",
   "main": "index.js",
   "license": "UNLICENSED",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pvcp-integ/test-integ.git"

@@ -1,10 +1,14 @@
 #Exercice 3
 
-**Durée :** 5 mins
+**Durée :** :warning: 5 mins :warning:
 
-Effectuer les modifications **que vous jugez nécessaires** pour rendre home.html **un minimum** seo-friendly.
+<ins>**Attention au temps.**</ins>
+
+Effectuer les modifications <ins>**que vous jugez nécessaires**</ins> pour rendre home.html <ins>**un minimum**</ins> seo-friendly.
 
 La seule chose que nous vous demandons explicitement est de modifier la valeur de la balise title comme ceci : "Titre de la home - Nom du site".
+
+Pour le reste, du lorem ipsum suffira ;)
 
 ---
 
@@ -14,3 +18,4 @@ La seule chose que nous vous demandons explicitement est de modifier la valeur d
 - **Exercice 3**
 - [Exercice 4](./exo4.md)
 - [Exercice 5](./exo5.md)
+- [Exercice 6](./exo6.md)
