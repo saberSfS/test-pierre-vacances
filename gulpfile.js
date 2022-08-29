@@ -7,8 +7,8 @@ const gulp = require('gulp'),
   uglify = require('gulp-uglify'),
   include = require('gulp-include'),
   htmlmin = require('gulp-htmlmin'),
-  rename = require('gulp-rename');
-
+  rename = require('gulp-rename'),
+minify = require('gulp-minify-css');
 gulp.task('twig', () => {
   return gulp.src(['./src/**/*.twig', '!./src/**/_*.twig'])
     .pipe(twig())
@@ -50,6 +50,8 @@ gulp.task('scripts', () => {
 gulp.task('styles', () => {
   return gulp.src(['./src/**/*.scss', '!./src/**/_*.scss'])
     .pipe(sass().on('error', sass.logError))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(minify())
     .pipe(gulp.dest('./dist/assets/stylesheets'));
 });
 

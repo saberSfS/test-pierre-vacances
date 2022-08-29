@@ -1,3 +1,75 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background: #e8ca9e;
+  margin: 0;
+  padding:  182px  95px;
+  font-family: 'Roboto', sans-serif;
 }
+
+
+  .gray-block {
+    background: #c4c4c4;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .wrapper-texts  {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      padding: 0  25px;
+      .Je-suis-le-titre-principal-de-la-page {
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+      }
+.lorem-ipsum-text {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+    }
+
+    .montagne-img {
+      width: 150px;
+      height: 299px;
+      overflow: hidden;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: -320px 30px;
+      }
+    }
+.wrapper-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+    .button-one, .button-two, .button-three {
+      height: 42px;
+      padding: 13px 18.5px 13px 18px;
+      border-radius: 10px;
+      background-color: #377d4b;
+      border: none;
+    }
+    .lorem-ipsum-text,   .Je-suis-le-titre-principal-de-la-page,  .button-one, .button-two, .button-three {
+      margin-top: 25px;
+    }
+}
+
+
